@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:#fff;
+}
+
+#bg{
+	height: 50%;
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: -1;
+}
+
+#info{
+	font-family: Stencylette;
+	font-size: 400px;
+	letter-spacing: 15px;
+	margin: 15px 0px;
+	padding: 0;
+	fill: #000;
+}
+
+#masked{
+	mask:url("#maskLayer");
+}
