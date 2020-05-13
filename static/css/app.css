@@ -135,17 +135,17 @@ hr {
   background: #eee; }
 
 .full.light-grey {
-  background: #f5f5f5; }
+  background: #ECF0F3; }
 
 .full.colored-bg {
   background: #eee;
   transition: background 0.2s ease-in; }
 
 .full.colored-bg.red.appear {
-  background: #fc8479; }
+  background: #feeafa; }
 
 .full.colored-bg.purple.appear {
-  background: #6e77c6; }
+  background: #E2D3FE; }
 
 .full.colored-bg.orange.appear {
   background: #f2be8c; }
