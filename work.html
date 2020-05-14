@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
@@ -19,38 +19,56 @@
   </head>
 
   <body>
-    <a href="index.html" class="logo">
-      <img src="images/@stock/logo.png" style="height:32px;">
+      <a href="index.html" class="logo">
+      <img src="images/@stock/logo.png">
     </a>
-    <a href="index.html#work-section" class="back-to-all" style="top:70%;left:50px;"><b> Work / </b></a>
-    
-    <div class="case-header">
-        <div class="circle-wrap" style=" -webkit-mask-size:contain; ">
-          <div class="media work-1"></div>
-        </div>
-                    <div class="case-title" style=" top:80%; left:35px;">
+
+      <div id="works" class="page">
+      <div class="header" >
+        <nav>
+          <h2>
+              <video loop autoplay muted playsinline class="nav-video">
+                <source src='images/@stock/work.webm' type='video/webm'>
+              </video>
+  
+              <svg width="600" height="338" viewBox="0 0 600 338" class="svg-graphic" id="svg-graphic-works">
+                <defs>
+                  <mask id="works-mask" x="0" y="0" width="600" height="338" >
+                    <rect x="0" y="0" width="600" height="338" fill="#fff" />
+                    <polygon points="440.9,33.8 432.4,33.8 331.4,33.8 329.1,33.8 268.6,33.8 268.5,34.1 167.7,34.1 167.6,33.8 
+          102.5,33.8 196.5,303.2 241.2,303.2 299.8,115.9 358.8,303.2 403.5,303.2 497.5,33.8   "></polygon>
+                  </mask>
+                </defs>
+                <!-- rect should be bigger than 337.5, vector shape should be smaller than 337.5 -->
+                <!-- the 337.5 is calcutated by 600 / 16 * 9 -->
+                <rect x="0" y="0" width="600" height="338" />
+              </svg>       
+
+              <span>Work</span>
+
+          </h2>
+        </nav>
+        <div class="header-title invisible">
           <div class="row">
-              <div class="large-8 columns">
-                <h2 style="color:black;">Competency Framework</h2>
-              </div>
+            <div class="large-8 columns">
+              <h2>Denise / Work</h2>
+              <p>I build people, teams, and practice; together we design great things.</p>
+            </div>
           </div>
         </div>
-
-
-      <p class="action-hint">
-        <span class="scroll-down">
-          Scroll down for project info.
-          <i class="icon-arrows-slim-down"></i>
-        </span>
-      </p>
+      </div>
     </div>
+
+
+
+
     <div class="case-study-content">
         <div class="full colored-bg red ">
           <div class="row">
             <div class="large-10 columns">
               <h2 >Summary</h2>
               <p class="big-text">
-                  Visibility and transparency in career transformation. <br>Designed for the student experience, while creating opportunities to enhance business outcomes and future-proof education.
+                  Concept to create visibility and transparency in career transformation. <br>Designed for the student experience, while creating business opportunities to enhance outcomes and future proof education.
               </p>
               
             </div>
@@ -93,16 +111,16 @@
           <div class="row">
             <div class="large-6 columns">
               <h2>The <strike>Problem</strike> Opportunity</h2>
-              <p>Meet Quinn - a student who entered the program with a background in marketing, excited to explore the world of UX. Now in the final weeks, it's time to wrap up portfolios, prepare for interviews, and plan next steps.</p>
-              <p>That's when Quinn realizes, at the finish line looking back, it's hard to see where they started. The journey is a bit of a blur, and it's not easy to measure or articulate a blur.</p>
-              <p>Each cohort, I met students like Quinn. Students who couldn't quite see the transformation, how it translated to future potential, and what they should do next. I discovered that my prompt "I learned this much in 12 weeks, imagine what's possible in 1 year" meant very little if <i>this much</i> wasn't visible.</p>
+              <p>Meet Quinn - a student who enters the program with a background in fashion, excited to explore the world of UX. Now in the final weeks, it's time to wrap up portfolios, prepare for interviews, and plan next steps.</p>
+              <p>That's when Quinn realizes, at the finish line looking back, it's hard to see where they started. The whole journey is a bit of a blur, and it's not easy to measure or articulate a blur.</p>
+              <p>Each cohort, I met students like Quinn. Students who couldn't quite see the transformation, how that translated to future potential, and what they should do next. I discovered that my guidance of "I learned this much in 12 weeks, imagine what's possible in 1 year." meant very little, if <i>this much</i> was invisible.</p>
               <br>
             </div>
 
-             <div class="large-5 columns"> 
-
-              <div class="four spacing"></div>
-              <div class="four spacing"></div>
+                                  <div class="large-5 columns"> 
+                                    <div class="four spacing"></div>
+                                    <div class="four spacing"></div>
+                                    <div class="four spacing"></div>
               <img src="images/@stock/w1g1.png" alt="">
             </div>
                        
@@ -111,15 +129,8 @@
 <div class="row">
             <div class="large-4 columns">
 
-              <h3 class="meta-title">Customer</h3>
-              <p class="meta-data">Visibility into competencies.
-                <br>Reinforcement of skills and learnings.
-                <br>Program support and goal setting. </p>
-              
-              <h3 class="meta-title">Service</h3>
-              <p class="meta-data">Visibility into competencies.
-                <br>Scaleable personalized support.
-                <br>Program and outcomes efficacy.</p>
+              <h3 class="meta-title">Customer</h3><p class="meta-data">Visibility into competencies.<br>Reinforcement of skills and learnings.<br>Program support and goal setting. </p>
+              <h3 class="meta-title">Service</h3><p class="meta-data">Scaleable framework for custom career transformation.<br>Streamlined mentorship and educator 1:1s.<br>Data to validate program and lectures against in demand skills.</p>
            </div>
 
           </div>
@@ -132,18 +143,11 @@
             <div class="four spacing"></div>
           <div class="row">
             <div class="large-6 columns">
-              <h2>The idea</h2>
-              <p>Competency Framework (Before/After)</p>
+              <h2>The solution</h2>
+              <p>Competency Framework (with Before/After)</p>
               <p>In Winter 2020 I concepted the UX Competency Framework, inspired by the week 12 self-assessment, and radar charts implemented in design teams.</p>
-              <p>V1 could provide students and educators a visualization of career transformation from Week 3 to Week 12. </p>
-              <p>With iteration and scalability in mind, the initial build was lean, using Google Forms and Sheets. Pending release, it would be possible to validate whether a problem was solved, and how to add value. In next steps, I would aim to evaluate:
-                <ul>
-                  <li>UX of assessment and visualization</li>
-                  <li>Competencies vs curriculum, outcomes, and in demand skills</li>
-                  <li>Desireability of V2 goals feature (Week 3 and 12)</li>
-                </ul>
-
-
+              <p>Built with Google Forms and Sheets, V1 could provide students and educators a visualization of career transformation from Week 3 to Week 12.</p>
+              <p>With iteration and scalability in mind, the design could also support the Week 12 post-program goals, as well as additional snapshots.</p>
             </div>
             <div class="large-5 columns">
               <img src="images/@stock/graph.gif" alt="">
@@ -158,6 +162,8 @@
           <p class="centered-text">
             
           <img src="images/@stock/mock4.png" alt="">
+          <br>
+          Artistic representation of future state
         </p>
         </div>
 

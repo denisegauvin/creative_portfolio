@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1680px) {
+@media only screen and (max-width: 1440px) {
   svg#svg-graphic-about, svg#svg-graphic-works, svg#svg-graphic-blog, svg#svg-graphic-contact {
     width: 600px; }
   .nav-video {
@@ -125,9 +125,9 @@
   .case-video-wrapper {
     height: 500px; }
   .box.active .header-title {
-    top: 60%; }
+    top: 30%; }
   .case-header .case-title {
-    top: 60%; }
+    top: 30%; }
   .post {
     height: 350px; } }
 
