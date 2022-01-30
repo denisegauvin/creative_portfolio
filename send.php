@@ -1,11 +1,11 @@
 <?php
 
-  $to = "YOUR-EMAIL-ADDRESS";
+  $to = "denisengauvin@gmail.com";
 
   $name = $_POST['name'];
   $subject = $_POST['subject'];
 
-  $body = stripslashes($_POST['message'] . "\n\n sent from osum html");
+  $body = stripslashes($_POST['message'] . $_POST['email']);
 
   $from = $_POST['email'];
   $headers = "Reply-To: " . $from;
