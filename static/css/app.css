@@ -1045,6 +1045,9 @@ ul.socials li a:hover {
   background-position: center center;
   background-size: cover; }
 
+.circle-wrap .work-0 {
+  background-image: url(../../images/@stock/work-0.jpg); }
+
 .circle-wrap .work-1 {
   background-image: url(../../images/@stock/work-1.jpg); }
 
