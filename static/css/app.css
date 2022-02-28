@@ -16,10 +16,10 @@
 --------------*/
 /* base */
 a {
-  color: #FF548A; }
+  color: #ff5242; }
 
 a:hover {
-  color: #AD8DFF; }
+  color: #000; }
 
 a.load-more {
   width: 140px;
@@ -87,9 +87,6 @@ h2.white {
 hr {
   max-width: 100%;
   border-bottom: 1px solid #00e1b6; }
-
-.highlightpink { background-color:#feeafa;}
-.highlightwhite { background-color:#fff;}
 
 .button {
   text-transform: uppercase;
@@ -763,7 +760,7 @@ html.no-touchevents .nav-video {
   transform: translateY(0);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-color: #ffffff;
-  background-image: url(../../images/@stock/circle-4.png);
+  background-image: url(../../images/@stock/circle-3.png);
   background-position: center center;
   background-repeat: no-repeat; }
 
@@ -782,13 +779,13 @@ html.no-touchevents .nav-video {
 
 .triangle-2 {
   position: absolute;
-  right: 70%;
-  bottom: 60px;
+  right: 25%;
+  bottom: 50px;
   width: 0;
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 40px solid #E65F85;
+  border-top: 40px solid #E65F85;
   opacity: 0;
   transform: translateY(0) rotate(-90deg);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1); }
@@ -796,7 +793,6 @@ html.no-touchevents .nav-video {
 .circle-1.appear, .circle-2.appear, .circle-3.appear, .circle-4.appear, .triangle-1.appear, .triangle-2.appear {
   opacity: 1;
   transform: translateY(-50px); }
-
 
 /* icon -text */
 .icon-1 {
@@ -865,7 +861,7 @@ html.no-touchevents .nav-video {
 
 .modBoxedTextSlider {
   width: 100%;
-  background: #fff; }
+  background: #000; }
 
 .modBoxedTextSlider .slidebox {
   background: #fff;
@@ -912,12 +908,12 @@ ul.socials li {
   display: inline-block; }
 
 ul.socials li a {
-  color: #FF548A;
+  color: #ff5242;
   display: inline-block;
   padding: 5px; }
 
 ul.socials li a:hover {
-  color: #AD8DFF; }
+  color: #fff; }
 
 /* contact */
 .contact-email em {
@@ -934,11 +930,11 @@ ul.socials li a:hover {
   padding: 5px 0; }
 
 .contact-email a:hover {
-  color: #FF548A; }
+  color: #ff5242; }
 
 .contact-details i {
   font-size: 36px;
-  color: #FF548A; }
+  color: #ff5242; }
 
 .contact-details ul.socials {
   margin: 0; }
@@ -954,7 +950,7 @@ ul.socials li a:hover {
   color: #000; }
 
 .contact-details ul.socials a:hover i {
-  color: #FF548A; }
+  color: #ff5242; }
 
 .contact-details p {
   margin-bottom: 5px; }
@@ -963,7 +959,7 @@ ul.socials li a:hover {
   color: #000; }
 
 .contact-details p a:hover {
-  color: #FF548A; }
+  color: #ff5242; }
 
 .contact-details a.google-map-button {
   color: #000;
@@ -1049,20 +1045,17 @@ ul.socials li a:hover {
   background-position: center center;
   background-size: cover; }
 
-.circle-wrap .work-0 {
-  background-image: url(../../images/@stock/work-0.webp); }
-
 .circle-wrap .work-1 {
-  background-image: url(../../images/@stock/work-1.webp); }
+  background-image: url(../../images/@stock/work-1.jpg); }
 
 .circle-wrap .work-2 {
-  background-image: url(../../images/@stock/work-2.webp); }
+  background-image: url(../../images/@stock/work-2.jpg); }
 
 .circle-wrap .work-3 {
-  background-image: url(../../images/@stock/work-3.webp); }
+  background-image: url(../../images/@stock/work-3.jpg); }
 
 .circle-wrap .work-4 {
-  background-image: url(../../images/@stock/work-4.); }
+  background-image: url(../../images/@stock/work-4.png); }
 
 .circle-wrap .work-5 {
   background-image: url(../../images/@stock/work-5.gif); }
